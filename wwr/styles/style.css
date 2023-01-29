@@ -76,6 +76,7 @@ h4 {
 }
 .msg p {
     color: black;
+    font-size: 0.9em;
 }
 .logo {
     width: 80px;
