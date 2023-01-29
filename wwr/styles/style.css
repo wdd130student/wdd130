@@ -24,31 +24,32 @@ main section {
     height: 725px;
 }
 body {
-    background-color: #fcfbfb;
+    background-color: #a8cfe1;
 }
 header {
     background-color: rgba(20,30,13 .7);
 }
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color: #d9c2a3;
+    color:black
 }
 .book, .join {
-    background-color: red;
+    background-color: #d5573b;
     color: black
+    text-decoration none;
 }
 .book:hover, .join:hover {
-    background-color: yellow;
+    background-color: #d9c2a3;
     color: black
 }
 #background {
-    background-color: yellowgreen;
+    background-color: #d9c2a3;
 }
-.msg {
-    background-color: black;
+.msg {    
+    background-color: #efcb68;
 }
 footer {
-    background-color: green;
+    background-color: #efcb68;
     color: black
 }
 footer a {
@@ -57,6 +58,12 @@ footer a {
 }
 footer a:hover {
     color: black;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
 }
 home-title {
     color: black;
